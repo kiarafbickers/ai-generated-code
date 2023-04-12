@@ -36,6 +36,8 @@ This Code was generated with ChatGPT using iterations of this prompt:
 This service cpu intensive service should computes SHA256 hashes using one core of CPU per day, and displays the CPU usage as a vertical bar graph on the front-end. The graph will show the historical CPU usage for the most recent 24-hour period, with the height of the bar representing the percentage of CPU usage at a given point in time. The historical CPU usage data will be stored in a file, and the data will be reset at the end of each day.
 
 This is the file structure:
+
+```
 app/
 ├── data/
 │   ├── cpu-usage.json
